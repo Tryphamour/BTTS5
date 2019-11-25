@@ -10,106 +10,44 @@
     <meta property="og:description"
         content="The Beginners Taiko Tournament is a Taiko duel based (1v1) tournament hosted by Ladylag on a free-to-play rhythm game called osu!">
     <meta property="og:type" content="website">
-    <meta name="og:image" itemprop="image" content="assets\images\btts4.gif">
+    <meta name="og:image" itemprop="image" content="assets\images\bttlogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="assets/images/btts4.gif" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/bttcircle.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/test.css">
 </head>
 
 <body>
-    <div class="container-fluid">
 
-        <!--NAVBAR-->
-        <nav id="navigation" class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav>
+        <a href="#">
+            <img id="logo" src="assets/images/bttcircle.png">
+        </a>
+        <div id="navWrapper" class="wrapper">
+            <a id="navBut" href="#" style="background-color: #00000000">Welcome</a>
+            <a id="navBut" href="bracket" style="background-color: #00000000">Bracket</a>
+            <a id="navBut" href="mappool/Finals" style="background-color: #00000000">Mappool</a>
+            <a id="navBut" href="participants" style="background-color: #00000000">Participants</a>
+            <a id="navBut" href="staff" style="background-color: #00000000">Staff</a>
 
-            <!--LOGO-->
-            <a class="navbar-brand" href="#">
-                <img src="assets\images\btts4.gif" alt="logo" style="width:80px;">
-            </a>
+            <div>
 
-            <!--LIENS-->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Welcome !</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Bracket</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Mappool</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Players</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Rules</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Staff</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign-in</a>
-                </li>
-
-                <!--SEARCH-->
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                    <form class="form-inline" action="#">
-                        <input id="search" class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn" type="submit">Search</button>
-                    </form>
-                </nav>
-            </ul>
-        </nav>
-    </div>
-
-    <p>
-        <h1>Welcome to the Beginners Taiko Tournament Season 5 !</h1>
-    </p>
-
-    <!--CAROUSEL-->
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/images/gameplay.jpg" alt="Error">
-                <div class="carousel-caption">
-                    <h3>Gameplay</h3>
-                    <p>Face your opponents during lit 1v1 matches</p>
+                <div>
+                    <a id="navSign"
+                        href="https://osu.ppy.sh/oauth/authorize?response_type=code&client_id=155&redirect_uri=https://www.gameosu.com/index.php">Sign
+                        up</a>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/osubg.jpg" alt="Error">
-                <div class="carousel-caption">
-                    <h3>Try osu! for free</h3>
-                    <p>Interested by the game ? Click on this image to try osu!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/moka.jpg" alt="Error">
-                <div class="carousel-caption">
-                    <h3 id="wannaplay">Wanna play in this tournament ?</h3>
-                    <p>All you need to do is read the rules and register</p>
-                </div>
+
             </div>
         </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
+        <!-- mobil wsh -->
+        <h1></h1>
+        <div id="mobilBut" class="mobil">
+            <div class="trait"></div>
+            <div class="trait"></div>
+            <div class="trait"></div>
+        </div>
+    </nav>
 
     <!--SCRIPTS-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
