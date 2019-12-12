@@ -1,0 +1,22 @@
+#footer{
+    margin: 0%;
+}
+
+div.container.valign-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe8dc;
+    margin: 0%;
+}
+
+div.container a{
+    font-size: large;
+    margin-left: 5px;
+}
+
+div.container img{
+    max-height: 40px;
+    max-width: 40px;
+}
