@@ -9,6 +9,7 @@ header {
   background-color: #42245488;
   font-size: large;
   text-shadow: #000000 2px 0 2px;
+  box-shadow:#42245471 2px 2px;
   margin-right: 2%;
 }
 
@@ -18,11 +19,17 @@ header {
   background-color: #42245488;
   font-size: large;
   text-shadow: #000000 2px 0 2px;
+  box-shadow:#42245471 2px 2px;
   margin-left: 2%;
 
 }
 
-div.row.valign-wrapper {
+.row{
+  margin: 0%;
+}
+
+#bg {
   background-image: url(https://cdn.discordapp.com/attachments/477252567815159819/654311269976899634/e96a8d.png);
+  background: contain;
   margin: 0%;
 }
