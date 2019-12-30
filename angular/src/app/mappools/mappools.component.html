@@ -1,1 +1,38 @@
-<p>mappools works!</p>
+<div class="row">
+  <div class="col card-panel l12">
+    <span>Qualifiers</span><span> - </span><span>Round of 32</span>
+  </div>
+</div>
+
+<div class="row valign-wrapper">
+  <div class="col l9 m8 s7 card-panel z-depth-2" id="map-overview">
+    <h3>{{ test }}</h3>
+    <p>
+      The only restriction that exists here for registration is that you cannot
+      be in the top 10k in ranks. This is meant to be a beginner's tournament,
+      and many, if not all the maps are catered towards those who are below 10k.
+      We don't want an unfair advantage! There's two exceptions to this rule.
+    </p>
+    <ol>
+      <li>
+        If you're the appropriate rank upon registration but rank past 10k
+        before the tournament begins, if you are still below 9k, you're
+        considered eligible.
+      </li>
+      <li>
+        If you rank while the tournament is taking place, that cannot be
+        stopped, but please refrain from doing so (ranking too far below 9k will
+        require eliminations).
+      </li>
+    </ol>
+  </div>
+  <div class="col l3 m4 s5 card-panel center-align" id="pool-list">
+    <ul>
+      <li *ngFor="let map of pool">{{ map.title }}</li>
+    </ul>
+
+    <div id="mappack-wrapper">
+      <a href="#">Mappack Download</a>
+    </div>
+  </div>
+</div>
