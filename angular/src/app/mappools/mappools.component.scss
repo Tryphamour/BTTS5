@@ -7,6 +7,23 @@
 }
 
 #mappack-wrapper {
-  background: #d3d3d3;
   margin: 8px;
+}
+
+#pool-select {
+  text-align: center;
+}
+
+.map-entry:hover {
+  background: #d3d3d3;
+  cursor: pointer;
+}
+
+.pool-entry {
+  margin: 8px;
+}
+
+.pool-entry:hover {
+  background: #d3d3d3;
+  cursor: pointer;
 }
