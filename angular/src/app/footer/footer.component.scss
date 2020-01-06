@@ -1,42 +1,47 @@
 div.container.valign-wrapper {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #ffe8dc;
-    margin: 0%;
-    max-width: 1980px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffe8dc;
+  margin: 0;
+  max-width: 1980px;
+  vertical-align: middle;
 }
 
-div.container a{
-    font-size: large;
-    margin-left: 5px;
-    text-decoration: underline;
+div.container a {
+  font-size: large;
+  margin-left: 5px;
+  text-decoration: underline;
 }
 
-div.container img{
-    margin-top: 2px;
-    max-height: 40px;
-    max-width: 40px;
+div.container img {
+  margin-top: 2px;
+  max-height: 40px;
+  max-width: 40px;
 }
 
-#twitch{
-    color: #6441a4;
+.footerlink {
+  display: flex;
+  align-items: center;
 }
 
-#challonge{
-    color: #ff7324;
+#twitch {
+  color: #6441a4;
 }
 
-#discord{
-    color: #7289DA;
+#challonge {
+  color: #ff7324;
 }
 
-#forum{
-    color: #E865A0;
+#discord {
+  color: #7289DA;
 }
 
-#legal{
-    color: #000000;
-    font-size: medium;
+#forum {
+  color: #E865A0;
+}
+
+#sheet {
+  color: #30AC4E;
 }
