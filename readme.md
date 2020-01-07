@@ -6,7 +6,7 @@ When you are working on something you swipe your card in the "In development" ca
 then in "Code Review" when you think you've finished
 Then either Extern (Cieleia) or Root (if it is ok) go code review and tell you what is godd / what is not good
 If everything is validated it goes to "Done" category and you can do an other component
-There are png mockups on the cards, so you  can see what to do.
+There are png mockups on the cards, so you can see what to do.
 There is also a description for some. You can use Materialize to code
 If you have a question don't hesitate to ask
 
@@ -16,6 +16,21 @@ Also, if you need tournament logos / images etc, go to angular / assets / images
 You're not forced to use angular
 You can just do HTML & CSS and I will transfer to angular myself
 You can also use Materialize to help you
-Its a framework CSS. 
+Its a framework CSS.
 
-To run angular on VSCode, open a new terminal and write 'ng serve --open'
+## Running
+
+```bash
+cd angular
+npm install
+
+# required in order to run generate-pool
+export OSU_API_KEY="your api key"
+
+# this script uses the osu api to generate pool info
+# need to run this only when the pools change
+npm run generate-pool
+
+# runs dev server on localhost:4200
+npm start
+```
