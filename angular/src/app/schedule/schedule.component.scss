@@ -2,6 +2,13 @@ nav {
   border-bottom: solid #ffebdc 1px;
 }
 
+.sticky1 {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999;
+}
+
 .nav-wrapper {
   background-color: #ffebdca8;
 }
@@ -21,16 +28,6 @@ nav a {
 
 .content {
   padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky+.content {
-  padding-top: 60px;
 }
 
 .schedule {
