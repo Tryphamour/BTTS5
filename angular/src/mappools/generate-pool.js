@@ -14,7 +14,7 @@ const formatTime = time =>
 
 async function loadFromApi() {
   for (const pool of pools) {
-    const newPool = { round: pool.round, maps: [] };
+    const newPool = { ...pool, maps: [] };
 
     for (const map of pool.maps) {
       // intentionally one request at a time to avoid spamming osu with requests
