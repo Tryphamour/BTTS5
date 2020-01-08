@@ -2,6 +2,12 @@
   margin: 16px;
 }
 
+.bg {
+  background-image: url(../../assets/images/background.png);
+  background-repeat: repeat;
+  margin: 0%;
+}
+
 #map-overview {
   margin: 16px;
 }
@@ -20,10 +26,50 @@
 }
 
 .pool-entry {
-  margin: 8px;
+  margin: 8px 16px;
+  font-size: 16pt;
 }
 
 .pool-entry:hover {
   background: #d3d3d3;
   cursor: pointer;
+}
+
+.u-bold {
+  font-weight: bold;
+}
+
+.map-title {
+  font-size: 24pt;
+  margin-bottom: 0;
+}
+
+.map-creator {
+  margin-top: 0;
+  font-size: 18pt;
+  color: #646464;
+}
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.map-props {
+  display: flex;
+  font-size: 16pt;
+}
+
+.map-props div {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.prop-name {
+  font-weight: bold;
+}
+
+.map-wrapper {
+  display: flex;
 }

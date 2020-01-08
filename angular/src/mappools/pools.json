@@ -4,8 +4,10 @@
     "maps": [
       { "mod": "nm1", "id": 1676330 },
       { "mod": "hd1", "id": 2177382 },
-      { "mod": "hr1", "id": 1493823 }
-    ]
+      { "mod": "hr1", "id": 1493823 },
+      { "mod": "dt1", "id": 2088706 }
+    ],
+    "mappack": "http://test.com"
   },
   {
     "round": "Round of 32",
@@ -13,6 +15,7 @@
       { "mod": "nm1", "id": 1678939 },
       { "mod": "hd1", "id": 2176585 },
       { "mod": "hr1", "id": 1528753 }
-    ]
+    ],
+    "mappack": "http://test.com"
   }
 ]
