@@ -8,6 +8,9 @@ const osuApi = new osu.Api(process.env.OSU_API_KEY);
 
 const output = [];
 
+const round = num => Math.round(num * 100) / 100;
+const formatTime = time => Math.floor(time / 60) + ":" + Math.floor(time % 60);
+
 async function loadFromApi() {
   for (const pool of pools) {
     const newPool = { round: pool.round, maps: [] };
@@ -17,16 +20,16 @@ async function loadFromApi() {
       const mapData = (await osuApi.getBeatmaps({ b: map.id }))[0];
       const newMap = {
         mod: map.mod,
-        id: mapData.id,
+        id: parseInt(mapData.id),
         title: mapData.title,
         artist: mapData.artist,
         creator: mapData.creator,
         diff: mapData.version,
-        bpm: mapData.bpm,
-        sr: mapData.difficulty.rating,
-        od: mapData.difficulty.overall,
-        hp: mapData.difficulty.drain,
-        time: mapData.time.total
+        bpm: parseFloat(mapData.bpm),
+        sr: round(parseFloat(mapData.difficulty.rating)),
+        od: parseFloat(mapData.difficulty.overall),
+        hp: parseFloat(mapData.difficulty.drain),
+        time: formatTime(parseInt(mapData.time.total))
       };
 
       console.log(`Loaded info for ${mapData.title}`);
