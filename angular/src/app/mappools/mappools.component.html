@@ -16,7 +16,9 @@
       {{ currentMap.artist }} -- {{ currentMap.title }} [{{ currentMap.diff }}]
     </h3>
     <h4 class="map-creator">Map by {{ currentMap.creator }}</h4>
-    <img src="{{ currentMap.image }}" />
+    <a href="https://osu.ppy.sh/b/{{ currentMap.id }}"
+      ><img src="{{ currentMap.image }}"
+    /></a>
     <div class="map-props">
       <div><span class="prop-name">Stars:</span> {{ currentMap.sr }}</div>
       <div><span class="prop-name">Time:</span> {{ currentMap.time }}</div>
