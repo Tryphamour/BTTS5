@@ -9,30 +9,30 @@
   </div>
 </div>
 
-<div class="row valign-wrapper">
+<div class="row map-wrapper">
   <div class="col l9 m8 s7 card-panel z-depth-2" id="map-overview">
-    <h2>{{ currentMap.mod }}</h2>
-    <h3>
+    <h3 class="map-title">
+      <span class="u-bold">{{ currentMap.mod }}:</span>
       {{ currentMap.artist }} -- {{ currentMap.title }} [{{ currentMap.diff }}]
     </h3>
-    <h4>Map by {{ currentMap.creator }}</h4>
+    <h4 class="map-creator">Map by {{ currentMap.creator }}</h4>
     <img src="{{ currentMap.image }}" />
-    <ul>
-      <li>Star Rating: {{ currentMap.sr }}</li>
-      <li>Length: {{ currentMap.time }}</li>
-      <li>bpm: {{ currentMap.bpm }}</li>
-      <li>OD: {{ currentMap.od }}</li>
-      <li>HP: {{ currentMap.hp }}</li>
-    </ul>
+    <div class="map-props">
+      <div><span class="prop-name">Stars:</span> {{ currentMap.sr }}</div>
+      <div><span class="prop-name">Time:</span> {{ currentMap.time }}</div>
+      <div><span class="prop-name">BPM:</span> {{ currentMap.bpm }}</div>
+      <div><span class="prop-name">OD:</span> {{ currentMap.od }}</div>
+      <div><span class="prop-name">HP:</span> {{ currentMap.hp }}</div>
+    </div>
   </div>
-  <div class="col l3 m4 s5 card-panel center-align" id="pool-list">
+  <div class="col l3 m4 s5 card-panel" id="pool-list">
     <ul>
       <li
         class="map-entry"
         *ngFor="let map of currentPool.maps"
         (click)="selectMap(map.id)"
       >
-        {{ map.title }}
+        <span class="u-bold">{{ map.mod }}:</span> {{ map.title }}
       </li>
     </ul>
 

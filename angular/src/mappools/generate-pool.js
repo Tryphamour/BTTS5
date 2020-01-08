@@ -9,7 +9,8 @@ const osuApi = new osu.Api(process.env.OSU_API_KEY);
 const output = [];
 
 const round = num => Math.round(num * 100) / 100;
-const formatTime = time => Math.floor(time / 60) + ":" + Math.floor(time % 60);
+const formatTime = time =>
+  Math.floor(time / 60) + ":" + (time % 60 < 10 ? "0" : "") + (time % 60);
 
 async function loadFromApi() {
   for (const pool of pools) {
@@ -19,7 +20,7 @@ async function loadFromApi() {
       // intentionally one request at a time to avoid spamming osu with requests
       const mapData = (await osuApi.getBeatmaps({ b: map.id }))[0];
       const newMap = {
-        mod: map.mod,
+        mod: map.mod.toUpperCase(),
         id: parseInt(mapData.id),
         title: mapData.title,
         artist: mapData.artist,
