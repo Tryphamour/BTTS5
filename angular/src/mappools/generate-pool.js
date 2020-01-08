@@ -29,7 +29,8 @@ async function loadFromApi() {
         sr: round(parseFloat(mapData.difficulty.rating)),
         od: parseFloat(mapData.difficulty.overall),
         hp: parseFloat(mapData.difficulty.drain),
-        time: formatTime(parseInt(mapData.time.total))
+        time: formatTime(parseInt(mapData.time.total)),
+        image: `https://assets.ppy.sh/beatmaps/${mapData.beatmapSetId}/covers/cover.jpg`
       };
 
       console.log(`Loaded info for ${mapData.title}`);
