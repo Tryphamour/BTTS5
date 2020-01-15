@@ -1,0 +1,98 @@
+//TIMELINE
+
+.timeline_container{
+  width: 100%;
+  display: flex;
+  margin-top: 150px;
+}
+
+.timeline{
+  width: 50%;
+}
+
+.content{
+  width: 50%;
+}
+
+.timeline_part{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-right: 5px white dashed;
+  z-index: 2;
+  margin-left: 5px;
+}
+
+#last_border{
+  border: none;
+  margin-left: -1px;
+}
+
+.timeline_part h2{
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0 10px 5px 10px;
+  color: white;
+  position: absolute;
+  top: -24px;
+  right: 50px;
+  background-color: #422454c0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.point{
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 0;
+  right: -27px;
+  top: -25px;
+  z-index: 3;
+}
+
+.point:hover{
+  cursor: pointer;
+  background: #422454;
+}
+
+.content_part{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+
+.content_part h2{
+  margin: 0;
+}
+
+.content_text{
+  padding: 0 10px 10px 10px;
+  background-color: #422454c0;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: -35px;
+  left: 50px;
+  color: white;
+  max-height: 450px;
+  overflow: auto;
+} 
+
+@media (max-width: 992px) {
+    .timeline_part h2{
+      font-size: 2em;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .timeline_part h2{
+      font-size: 2em;
+    }
+    .content_part h2{
+      font-size: 3em;
+    }
+  }

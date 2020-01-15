@@ -1,0 +1,26 @@
+<h1>Qualifiers</h1>
+
+<div class="qualifiers_container">
+
+    <div class="lobby" *ngFor="let lobby of lobbies; let i = index">
+        <h4>Lobby {{i + 1}} - Date & Time</h4>
+        <div class="users">
+            <div><img src="{{lobby.img[0]}}" alt="avatar"></div>
+            <h4>{{lobby.pseudo[0]}}</h4>
+        </div>
+        <div class="users">
+            <div><img src="{{lobby.img[1]}}" alt="avatar"></div>
+            <h4>{{lobby.pseudo[1]}}</h4>
+        </div>
+        <div class="users">
+            <div><img src="{{lobby.img[2]}}" alt="avatar"></div>
+            <h4>{{lobby.pseudo[2]}}</h4>
+        </div>
+        <div class="users">
+            <div><img src="{{lobby.img[3]}}" alt="avatar"></div>
+            <h4>{{lobby.pseudo[3]}}</h4>
+        </div>
+        <h5>Referee: {{lobby.referee}}</h5>
+    </div>
+
+</div>

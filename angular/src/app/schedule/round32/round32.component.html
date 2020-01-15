@@ -1,0 +1,42 @@
+<h1>Round of 32</h1>
+
+<div class="round32_container">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Match_ID</th>
+                <th>Date</th>
+                <th>Country</th>
+                <th>Player Image</th>
+                <th>Player1</th>
+                <th>VS</th>
+                <th>Country</th>
+                <th>Player Image</th>
+                <th>Player2</th>
+                <th>Referee</th>
+                <th>Streamer</th>
+                <th>Commentator(s)</th>
+                <th>Twitch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let round32 of rounds32; let y = index">
+                <td class="match_id">{{y+1}}</td>
+                <td class="match_date">{{round32.date}}</td>
+                <td class="country1"><div class="img_container"><img src="{{round32.country1}}" alt="country1"></div></td>
+                <td class="img1"><div class="img_container"><img src="{{round32.img1}}" alt="player1"></div></td>
+                <td class="pseudo1">{{round32.player1}}</td>
+                <td class="vs">VS</td>
+                <td class="country2"><div class="img_container"><img src="{{round32.country2}}" alt="country2"></div></td>
+                <td class="img2"><div class="img_container"><img src="{{round32.img2}}" alt=""></div></td>
+                <td class="pseudo2">{{round32.player2}}</td>
+                <td class="referee">{{round32.referee}}</td>
+                <td class="streamer">{{round32.streamer}}</td>
+                <td class="commentators"><div *ngFor="let commentator of round32.commentators">{{commentator}}</div></td>
+                <td class="twitch"><div class="twitch_container"><a href="{{round32.twitch}}"></a><img src="../../../assets/images/twitchlogo.png" alt="Twitch"></div></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

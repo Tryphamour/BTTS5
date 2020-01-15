@@ -1,29 +1,34 @@
 <nav>
     <div class="nav-wrapper" >
-        <a href="index" class="brand-logo"><img id="logo" src="./assets/images/bttcircle.png" alt="Beginners Taiko Tournament's logo"></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down" id="navbar">
-            <li><a href="index">Welcome!</a></li>
-            <li><a href="schedule">Schedule</a></li>
-            <li><a href="bracket">Bracket</a></li>
-            <li><a href="mappools">Mappools</a></li>
-            <li><a href="players">Players</a></li>
-            <li><a href="rules">Rules</a></li>
-            <li><a href="staff">Staff</a></li>
-            <li><a href="signup">Signup</a></li>
+        <a routerLink="index" class="brand-logo"><img id="logo" src="./assets/images/bttcircle.png" alt="Beginners Taiko Tournament's logo"></a>
+        <ul class="right" id="navbar">
+            <li><a routerLink="index">Welcome!</a></li>
+            <li><a routerLink="schedule">Schedule</a></li>
+            <li><a routerLink="bracket">Bracket</a></li>
+            <li><a routerLink="mappools">Mappools</a></li>
+            <li><a routerLink="players">Players</a></li>
+            <li><a routerLink="rules">Rules</a></li>
+            <li><a routerLink="staff">Staff</a></li>
+            <li><a routerLink="signup">Signup</a></li>
         </ul>
     </div>
 </nav>
 
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="index">Welcome!</a></li>
-    <li><a href="schedule">Schedule</a></li>
-    <li><a href="bracket">Bracket</a></li>
-    <li><a href="mappools">Mappools</a></li>
-    <li><a href="players">Players</a></li>
-    <li><a href="rules">Rules</a></li>
-    <li><a href="staff">Staff</a></li>
-    <li><a href="signup">Signup</a></li>
-</ul>
+<div id="burger">		
+    <i class="fas fa-bars"></i>
+</div>
+
+<div id="sidenav_container">
+    <ul id="sidenav">
+        <li><a routerLink="index">Welcome!</a></li>
+        <li><a routerLink="schedule">Schedule</a></li>
+        <li><a routerLink="bracket">Bracket</a></li>
+        <li><a routerLink="mappools">Mappools</a></li>
+        <li><a routerLink="players">Players</a></li>
+        <li><a routerLink="rules">Rules</a></li>
+        <li><a routerLink="staff">Staff</a></li>
+        <li><a routerLink="signup">Signup</a></li>
+    </ul>
+</div>
 
 <script src="../../assets/js/navbar.js"></script>

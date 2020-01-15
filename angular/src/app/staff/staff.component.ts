@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { COMMENTATORS } from '../mock-commentators';
+import { REFEREES } from '../mock-referees';
 
 @Component({
   selector: 'app-staff',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StaffComponent implements OnInit {
 
+  commentators = COMMENTATORS;
+  referees = REFEREES;
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  
 
 }

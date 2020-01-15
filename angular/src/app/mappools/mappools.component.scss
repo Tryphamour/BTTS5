@@ -14,6 +14,16 @@
 
 #mappack-wrapper {
   margin: 8px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px
+}
+
+#mappack-wrapper a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
 }
 
 #pool-select {
@@ -23,6 +33,8 @@
 .map-entry:hover {
   background: #d3d3d3;
   cursor: pointer;
+  border: 1px solid black;
+  background-color: darkgrey;
 }
 
 .pool-entry {
@@ -72,4 +84,24 @@ img {
 
 .map-wrapper {
   display: flex;
+}
+
+.row{
+  margin-bottom: 0 !important;
+}
+
+.bigList{
+  background-color: lightgrey;
+  text-align: left;
+}
+
+.list_items{
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+#contain{
+  display: flex;
+  height: 83vh;
+  align-items: center;;
 }

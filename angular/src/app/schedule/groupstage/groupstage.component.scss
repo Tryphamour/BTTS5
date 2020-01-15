@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+.groupstage_container{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.group{
+    width: 23%;
+    border: 1px solid black;
+    background-color: #422454c0;
+    border-radius: 10px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.group table th{
+    text-align: center;
+}
+.group table td{
+    text-align: center;
+}
