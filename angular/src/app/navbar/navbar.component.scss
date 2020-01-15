@@ -10,6 +10,7 @@ nav{
 
 .nav-wrapper{
     background-color: #ffebdc;
+    padding-bottom: 60px;
 }
 
 nav ul a{
@@ -22,4 +23,47 @@ nav a{
 
 a{
     font-size: large;
+}
+
+#burger{
+    position: absolute;
+	margin-left: 10px; 
+    top: 1px;
+	font-size: 40px;
+    display: none;
+}
+
+#burger:hover{
+    cursor: pointer;
+}
+
+#sidenav_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffebdc;
+    text-align: center;
+}
+
+#sidenav{
+    display: none;
+}
+
+#sidenav a{
+    text-decoration: none;
+    color: #620F41;
+}
+
+#sidenav li{
+    border-bottom: 1px solid #620F41;
+}
+
+@media (max-width: 992px) {
+    #burger{
+		display: block;
+    }
+    
+    #navbar{
+        display: none;
+    }
 }

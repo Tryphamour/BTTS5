@@ -2,12 +2,28 @@
   margin: 16px;
 }
 
+.bg {
+  background-image: url(../../assets/images/background.png);
+  background-repeat: repeat;
+  margin: 0%;
+}
+
 #map-overview {
   margin: 16px;
 }
 
 #mappack-wrapper {
   margin: 8px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px
+}
+
+#mappack-wrapper a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
 }
 
 #pool-select {
@@ -17,13 +33,75 @@
 .map-entry:hover {
   background: #d3d3d3;
   cursor: pointer;
+  border: 1px solid black;
+  background-color: darkgrey;
 }
 
 .pool-entry {
-  margin: 8px;
+  margin: 8px 16px;
+  font-size: 16pt;
 }
 
 .pool-entry:hover {
   background: #d3d3d3;
   cursor: pointer;
+}
+
+.u-bold {
+  font-weight: bold;
+}
+
+.map-title {
+  font-size: 24pt;
+  margin-bottom: 0;
+}
+
+.map-creator {
+  margin-top: 0;
+  font-size: 18pt;
+  color: #646464;
+}
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.map-props {
+  display: flex;
+  font-size: 16pt;
+}
+
+.map-props div {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.prop-name {
+  font-weight: bold;
+}
+
+.map-wrapper {
+  display: flex;
+}
+
+.row{
+  margin-bottom: 0 !important;
+}
+
+.bigList{
+  background-color: lightgrey;
+  text-align: left;
+}
+
+.list_items{
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+#contain{
+  display: flex;
+  height: 83vh;
+  align-items: center;;
 }

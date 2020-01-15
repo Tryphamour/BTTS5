@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PLAYERS } from '../mock-players';
 
 @Component({
   selector: 'app-players',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./players.component.scss']
 })
 export class PlayersComponent implements OnInit {
+
+  players = PLAYERS;
 
   constructor() { }
 

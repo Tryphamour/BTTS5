@@ -1,0 +1,50 @@
+#table_container{
+    padding: 50px; 
+    background-image: url(../../assets/images/background.png);
+    background-repeat: repeat;
+}
+
+#table_container i{
+    margin-right: 15px;
+}
+
+#table_container table{
+    border: 3px solid black;
+    background-color: #422454c0;
+    color: white;
+    font-size: 2em;
+}
+
+#table_container th, #table_container td{
+    text-align: center;
+}
+
+#table_container th{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#table_container td{
+    border: 1px solid black;
+}
+
+.table_index{
+    width: 5%;
+}
+
+.table_country{
+    width: 10%;
+}
+
+
+.table_name{
+    width: 25%;
+}
+
+.table_country img{
+    width: 50%;
+}
+
+.table_seeding, .table_taikoRank, .table_ppCount{
+    width: 10%;
+}

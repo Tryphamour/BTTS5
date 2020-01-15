@@ -14,6 +14,15 @@ import { RulesComponent } from './rules/rules.component';
 import { StaffComponent } from './staff/staff.component';
 import { SignupComponent } from './signup/signup.component';
 import { FooterComponent } from './footer/footer.component';
+import { TimelineComponent } from './schedule/timeline/timeline.component';
+import { GroupstageComponent } from './schedule/groupstage/groupstage.component';
+import { Round32Component } from './schedule/round32/round32.component';
+import { Round16Component } from './schedule/round16/round16.component';
+import { QuarterFinalsComponent } from './schedule/quarter-finals/quarter-finals.component';
+import { SemiFinalsComponent } from './schedule/semi-finals/semi-finals.component';
+import { FinalsComponent } from './schedule/finals/finals.component';
+import { GrandFinalsComponent } from './schedule/grand-finals/grand-finals.component';
+import { QualifiersComponent } from './schedule/qualifiers/qualifiers.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +36,16 @@ import { FooterComponent } from './footer/footer.component';
     RulesComponent,
     StaffComponent,
     SignupComponent,
-    FooterComponent
+    FooterComponent,
+    TimelineComponent,
+    GroupstageComponent,
+    Round32Component,
+    Round16Component,
+    QuarterFinalsComponent,
+    SemiFinalsComponent,
+    FinalsComponent,
+    GrandFinalsComponent,
+    QualifiersComponent
   ],
   imports: [
     BrowserModule,
