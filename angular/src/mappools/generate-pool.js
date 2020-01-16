@@ -4,7 +4,7 @@
 const osu = require("node-osu");
 const pools = require("./pools.json");
 const fs = require("fs");
-const osuApi = new osu.Api(process.env.OSU_API_KEY);
+const osuApi = new osu.Api("8fc26c54d82982463552461bb549231f5f50833b");
 
 const output = [];
 
@@ -56,4 +56,6 @@ loadFromApi().then(() =>
     "./src/mappools/pools.generated.js",
     `export default ${JSON.stringify(output)}`
   )
-);
+).catch((err) => {
+  console.log(err);
+})

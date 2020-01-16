@@ -3,5 +3,5 @@ export class Staff {
     img: string;
     osu: string;
     twitter: string;
-    twitch: string;
+    twitch: string; 
   }

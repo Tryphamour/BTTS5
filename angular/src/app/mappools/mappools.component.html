@@ -1,12 +1,7 @@
 <div class="bg">
   <div class="row">
     <div class="col card-panel l12" id="pool-select">
-      <span
-        class="pool-entry"
-        *ngFor="let pool of pools"
-        (click)="selectPool(pool.round)"
-        >{{ pool.round }}</span
-      >
+      <span class="pool-entry" *ngFor="let pool of pools" (click)="selectPool(pool.round)">{{ pool.round }}</span>
     </div>
   </div>
 
@@ -17,9 +12,7 @@
         {{ currentMap.artist }} -- {{ currentMap.title }} [{{ currentMap.diff }}]
       </h3>
       <h4 class="map-creator">Map by {{ currentMap.creator }}</h4>
-      <a href="https://osu.ppy.sh/b/{{ currentMap.id }}"
-        ><img src="{{ currentMap.image }}"
-      /></a>
+      <a href="https://osu.ppy.sh/b/{{ currentMap.id }}"><img src="{{ currentMap.image }}" /></a>
       <div class="map-props">
         <div><span class="prop-name">Stars:</span> {{ currentMap.sr }}</div>
         <div><span class="prop-name">Time:</span> {{ currentMap.time }}</div>
@@ -29,9 +22,9 @@
       </div>
     </div>
     <div class="col l3 m4 s5 card-panel bigList" id="pool-list">
-        <div class="list" *ngFor="let map of currentPool.maps" (click)="selectMap(map.id)">
-          <div class="list_items map-entry"><b>{{ map.mod }}:</b> {{ map.title }}</div>
-        </div>
+      <div class="list" *ngFor="let map of currentPool.maps" (click)="selectMap(map.id)">
+        <div class="list_items map-entry"><b>{{ map.mod }}:</b> {{ map.title }}</div>
+      </div>
 
       <div id="mappack-wrapper">
         <a href="{{ currentPool.mappack }}">Mappack Download</a>

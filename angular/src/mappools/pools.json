@@ -2,20 +2,12 @@
   {
     "round": "Qualifiers",
     "maps": [
-      { "mod": "nm1", "id": 1676330 },
-      { "mod": "hd1", "id": 2177382 },
-      { "mod": "hr1", "id": 1493823 },
-      { "mod": "dt1", "id": 2088706 }
+      { "mod": "nm1", "id": 1920528 },
+      { "mod": "nm2", "id": 2021605 },
+      { "mod": "hd1", "id": 514384 },
+      { "mod": "hr1", "id": 517492 },
+      { "mod": "dt1", "id": 1684690 }
     ],
-    "mappack": "http://test.com"
-  },
-  {
-    "round": "Round of 32",
-    "maps": [
-      { "mod": "nm1", "id": 1678939 },
-      { "mod": "hd1", "id": 2176585 },
-      { "mod": "hr1", "id": 1528753 }
-    ],
-    "mappack": "http://test.com"
+    "mappack": "https://mega.nz/#!CnhFiCha!wYPLpKlqlluFNO8gnTmqTSKW_qeU0J-I0bWJKsdLx_Y"
   }
 ]

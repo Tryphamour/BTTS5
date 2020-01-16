@@ -21,9 +21,13 @@
 }
 
 #mappack-wrapper a{
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   font-size: 1.3em;
+}
+
+#mappack-wrapper a:hover{
+  font-weight: bold;
 }
 
 #pool-select {
