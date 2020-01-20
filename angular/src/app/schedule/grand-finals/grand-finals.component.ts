@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GRANDFINALS } from '../../mock-grandfinals';
 
 @Component({
   selector: 'app-grand-finals',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./grand-finals.component.scss']
 })
 export class GrandFinalsComponent implements OnInit {
+
+  grandfinals = GRANDFINALS;
 
   constructor() { }
 

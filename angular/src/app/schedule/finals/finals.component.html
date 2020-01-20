@@ -1,0 +1,42 @@
+<h1>Finals</h1>
+
+<div class="final_container">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Match_ID</th>
+                <th>Date</th>
+                <th>Country</th>
+                <th>Player Image</th>
+                <th>Player1</th>
+                <th>VS</th>
+                <th>Country</th>
+                <th>Player Image</th>
+                <th>Player2</th>
+                <th>Referee</th>
+                <th>Streamer</th>
+                <th>Commentator(s)</th>
+                <th>Twitch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let final of finals; let y = index">
+                <td class="match_id">{{y+1}}</td>
+                <td class="match_date">{{final.date}}</td>
+                <td class="country1"><div class="img_container"><img src="{{final.country1}}" alt="country1"></div></td>
+                <td class="img1"><div class="img_container"><img src="{{final.img1}}" alt="player1"></div></td>
+                <td class="pseudo1">{{final.player1}}</td>
+                <td class="vs">VS</td>
+                <td class="pseudo2">{{final.player2}}</td>
+                <td class="img2"><div class="img_container"><img src="{{final.img2}}" alt=""></div></td>
+                <td class="country2"><div class="img_container"><img src="{{final.country2}}" alt="country2"></div></td>
+                <td class="referee">{{final.referee}}</td>
+                <td class="streamer">{{final.streamer}}</td>
+                <td class="commentators"><div *ngFor="let commentator of final.commentators">{{commentator}}</div></td>
+                <td class="twitch"><div class="twitch_container"><a href="{{final.twitch}}"></a><img src="../../../assets/images/twitchlogo.png" alt="Twitch"></div></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
