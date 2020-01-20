@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+.quarterfinal_container{
+    width: 100%;
+}
+
+th, td{
+    text-align: center;
+}
+
+.match_id{
+    width: 3%;
+}
+
+.match_date, .country1, .img1, .pseudo1, .country2, .img2, .pseudo2{
+    width: 9%;
+}
+
+.img_container{
+    width: 50px;
+    margin: auto;
+}
+
+.twitch_container{
+    width: 25px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.country2{
+    border-right: 2px solid black;
+}
