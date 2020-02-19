@@ -9,5 +9,24 @@
       { "mod": "dt1", "id": 1684690 }
     ],
     "mappack": "https://mega.nz/#!CnhFiCha!wYPLpKlqlluFNO8gnTmqTSKW_qeU0J-I0bWJKsdLx_Y"
+  },
+  {
+    "round": "Group Stage",
+    "maps": [
+      { "mod": "nm1", "id": 1945196 },
+      { "mod": "nm2", "id": 2199575 },
+      { "mod": "nm3", "id": 977179 },
+      { "mod": "nm4", "id": 2235429 },
+      { "mod": "hd1", "id": 880126 },
+      { "mod": "hd2", "id": 2241126 },
+      { "mod": "hr1", "id": 941208 },
+      { "mod": "hr2", "id": 469952 },
+      { "mod": "dt1", "id": 2176316 },
+      { "mod": "dt2", "id": 2298671 },
+      { "mod": "fm1", "id": 2296493 },
+      { "mod": "fm2", "id": 442939 },
+      { "mod": "tb", "id": 2257767 }
+    ],
+    "mappack": "https://mega.nz/#!j2hQlACQ!ZZNo2R4nSJXr15I_qv18oB5JQdlswj2X7WgHZ7QO38w"
   }
 ]
