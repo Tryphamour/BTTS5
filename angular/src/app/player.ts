@@ -4,4 +4,5 @@ export class Player {
     seeding: string;
     taikoRank: string;
     ppCount: string;
+    url: string;
   }
