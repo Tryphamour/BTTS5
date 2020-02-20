@@ -9,11 +9,11 @@
                 <th>Date</th>
                 <th>Country</th>
                 <th>Player Image</th>
-                <th>Player1</th>
+                <th>Player 1</th>
                 <th>VS</th>
-                <th>Country</th>
+                <th>Player 2</th>
                 <th>Player Image</th>
-                <th>Player2</th>
+                <th>Country</th>
                 <th>Referee</th>
                 <th>Streamer</th>
                 <th>Commentator(s)</th>
@@ -21,7 +21,7 @@
             </tr>
         </thead>
         <tbody>
-            <!--<tr *ngFor="let round16 of rounds16; let y = index">
+            <tr *ngFor="let round16 of rounds16; let y = index">
                 <td class="match_id">{{y+1}}</td>
                 <td class="match_date">{{round16.date}}</td>
                 <td class="country1"><div class="img_container"><img src="{{round16.country1}}" alt="country1"></div></td>
@@ -34,8 +34,8 @@
                 <td class="referee">{{round16.referee}}</td>
                 <td class="streamer">{{round16.streamer}}</td>
                 <td class="commentators"><div *ngFor="let commentator of round16.commentators">{{commentator}}</div></td>
-                <td class="twitch"><div class="twitch_container"><a href="{{round16.twitch}}"></a><img src="../../../assets/images/twitchlogo.png" alt="Twitch"></div></td>
-            </tr>-->
+                <td class="mplink"><div class="link_container"><a href="{{round16.mplink}}" target="_blank"><img src="../../../assets/images/iconlogo.png" alt="MP Link"></a></div></td>
+            </tr>
         </tbody>
     </table>
 
