@@ -12,7 +12,7 @@ export const FINALS: Round[] = [
       referee: 'LadyLag',
       streamer: 'Alphacast',
       commentators: ['LadyBug', 'TheCommentator'],
-      twitch: 'twitch.com'
+      mplink: 'https://osu.ppy.sh/community/matches/58298366',
     },
     { 
       date: '15/02',
@@ -25,7 +25,7 @@ export const FINALS: Round[] = [
       referee: 'LadyLag',
       streamer: 'Alphacast',
       commentators: ['LadyBug', 'TheCommentator'],
-      twitch: 'twitch.com'
+      mplink: 'https://osu.ppy.sh/community/matches/58298366',
     },
     { 
       date: '15/02',
@@ -38,6 +38,6 @@ export const FINALS: Round[] = [
       referee: 'LadyLag',
       streamer: 'Alphacast',
       commentators: ['LadyBug', 'TheCommentator'],
-      twitch: 'twitch.com'
+      mplink: 'https://osu.ppy.sh/community/matches/58298366',
     }
 ];

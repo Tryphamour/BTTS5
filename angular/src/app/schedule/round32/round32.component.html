@@ -9,15 +9,15 @@
                 <th>Date</th>
                 <th>Country</th>
                 <th>Player Image</th>
-                <th>Player1</th>
+                <th>Player 1</th>
                 <th>VS</th>
-                <th>Country</th>
+                <th>Player 2</th>
                 <th>Player Image</th>
-                <th>Player2</th>
+                <th>Country</th>
                 <th>Referee</th>
                 <th>Streamer</th>
                 <th>Commentator(s)</th>
-                <th>Twitch</th>
+                <th>MP Link</th>
             </tr>
         </thead>
         <tbody>
@@ -27,14 +27,14 @@
                 <td class="country1"><div class="img_container"><img src="{{round32.country1}}" alt="country1"></div></td>
                 <td class="img1"><div class="img_container"><img src="{{round32.img1}}" alt="player1"></div></td>
                 <td class="pseudo1">{{round32.player1}}</td>
-                <td class="vs">VS</td>
+                <td class="vs"><b>VS</b></td>
                 <td class="pseudo2">{{round32.player2}}</td>
                 <td class="img2"><div class="img_container"><img src="{{round32.img2}}" alt=""></div></td>
                 <td class="country2"><div class="img_container"><img src="{{round32.country2}}" alt="country2"></div></td>
                 <td class="referee">{{round32.referee}}</td>
                 <td class="streamer">{{round32.streamer}}</td>
                 <td class="commentators"><div *ngFor="let commentator of round32.commentators">{{commentator}}</div></td>
-                <td class="twitch"><div class="twitch_container"><a href="{{round32.twitch}}"></a><img src="../../../assets/images/twitchlogo.png" alt="Twitch"></div></td>
+                <td class="twitch"><div class="link_container"><a href="{{round32.mplink}}" target="_blank"><img src="../../../assets/images/iconlogo.png" alt="MP Link"></a></div></td>
             </tr>
         </tbody>
     </table>

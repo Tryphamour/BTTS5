@@ -14,6 +14,10 @@ th, td{
     width: 3%;
 }
 
+.pseudo1, .pseudo2 {
+    font-weight: bold;
+}
+
 .match_date, .country1, .img1, .pseudo1, .country2, .img2, .pseudo2{
     width: 9%;
 }
@@ -23,7 +27,7 @@ th, td{
     margin: auto;
 }
 
-.twitch_container{
+.link_container{
     width: 25px;
     margin: auto;
 }
