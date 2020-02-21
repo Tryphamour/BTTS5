@@ -10,12 +10,19 @@ th, td{
     text-align: center;
 }
 
+table {
+    background-color: #422454c0;
+    border-radius: 10px;
+    color: white;
+    margin-top: 25px;
+}
+
 .match_id{
     width: 3%;
 }
 
 .pseudo1, .pseudo2 {
-    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .match_date, .country1, .img1, .pseudo1, .country2, .img2, .pseudo2{
@@ -36,8 +43,6 @@ img{
     width: 100%;
 }
 
-.country2{
+.country2, .match_date{
     border-right: 2px solid black;
 }
-
-
