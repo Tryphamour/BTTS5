@@ -22,7 +22,7 @@ export const LOBBIES: Lobby[] = [{
   },
   {
     pseudo: ['poing', 'moosepi', 'Arbusion'],
-    img: ['../../assets/images/playerspfp/poing.png', '../../assets/images/playerspfp/moosepi.jpg', '../../assets/images/playerspfp/Arbusion.jpg'],
+    img: ['../../assets/images/playerspfp/poing.png', '../../assets/images/playerspfp/moosepi.png', '../../assets/images/playerspfp/Arbusion.jpg'],
     referee: 'Element118',
     date: ['25th Jan - 05:00 UTC']
   },

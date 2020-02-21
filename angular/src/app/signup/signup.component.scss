@@ -1,0 +1,47 @@
+.bg{
+    padding: 50px; 
+    background-image: url(../../assets/images/background.png);
+    background-repeat: repeat;
+    height: 590px;
+}
+
+form {
+    margin: 50px;
+    background-color: #422454c0;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+label {
+    color: white;
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+input#signup { 
+    margin-left: 50px;
+    width: 550px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #422454c0;
+    color: white;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: #6e4885c0;
+    box-shadow: 0 9px 17px 0 rgba(0,0,0,0.2), 0 7px 21px 0 rgba(0,0,0,0.19);
+}
+
+div.center {
+    margin-top: 50px;
+}
