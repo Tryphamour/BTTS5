@@ -1,25 +1,16 @@
 <h1>Qualifiers</h1>
 
 <div class="qualifiers_container">
-
   <div class="lobby" *ngFor="let lobby of lobbies; let i = index">
-    <h4>Lobby {{i + 1}} - {{lobby.date}}</h4>
+    <h4>Lobby {{ i + 1 }} - {{ lobby.date }}</h4>
     <div class="users">
       <div class="row">
-        <div class="col l6">
-          <div *ngFor="let image of lobby.img">
-            <div class="row"><img src="{{image}}" alt="avatar"></div>
-          </div>
-        </div>
-        <div class="col l6">
-          <div *ngFor="let name of lobby.pseudo">
-            <div class="row">
-              <h4>{{name}}</h4>
-            </div>
-          </div>
+        <div *ngFor="let player of lobby.players" class="player-container">
+          <img src="{{ player.img }}" alt="avatar" />
+          <span class="username">{{ player.name }}</span>
         </div>
       </div>
     </div>
-    <h5>Referee: {{lobby.referee}}</h5>
+    <h5>Referee: {{ lobby.referee }}</h5>
   </div>
 </div>
