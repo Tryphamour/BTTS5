@@ -1,0 +1,42 @@
+<h1>Quarter Finals</h1>
+
+<div class="quarterfinal_container">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Match_ID</th>
+                <th>Date</th>
+                <th>Country</th>
+                <th>Player Image</th>
+                <th>Player1</th>
+                <th>VS</th>
+                <th>Country</th>
+                <th>Player Image</th>
+                <th>Player2</th>
+                <th>Referee</th>
+                <th>Streamer</th>
+                <th>Commentator(s)</th>
+                <th>Twitch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let quarterfinal of quarterfinals; let y = index">
+                <td class="match_id">{{y+1}}</td>
+                <td class="match_date">{{quarterfinal.date}}</td>
+                <td class="country1"><div class="img_container"><img src="{{quarterfinal.country1}}" alt="country1"></div></td>
+                <td class="img1"><div class="img_container"><img src="{{quarterfinal.img1}}" alt="player1"></div></td>
+                <td class="pseudo1">{{quarterfinal.player1}}</td>
+                <td class="vs">VS</td>
+                <td class="pseudo2">{{quarterfinal.player2}}</td>
+                <td class="img2"><div class="img_container"><img src="{{quarterfinal.img2}}" alt=""></div></td>
+                <td class="country2"><div class="img_container"><img src="{{quarterfinal.country2}}" alt="country2"></div></td>
+                <td class="referee">{{quarterfinal.referee}}</td>
+                <td class="streamer">{{quarterfinal.streamer}}</td>
+                <td class="commentators"><div *ngFor="let commentator of quarterfinal.commentators">{{commentator}}</div></td>
+                <td class="twitch"><div class="twitch_container"><a href="{{quarterfinal.twitch}}"></a><img src="../../../assets/images/twitchlogo.png" alt="Twitch"></div></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

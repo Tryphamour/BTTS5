@@ -9,5 +9,5 @@ export class Round {
     referee: string;
     streamer: string;
     commentators: Array<String>;
-    twitch: string;
+    mplink: string;
   }

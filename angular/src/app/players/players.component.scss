@@ -29,11 +29,11 @@
 }
 
 .table_index{
-    width: 5%;
+    width: 3%;
 }
 
 .table_country{
-    width: 10%;
+    width: 1%;
 }
 
 
@@ -47,4 +47,8 @@
 
 .table_seeding, .table_taikoRank, .table_ppCount{
     width: 10%;
+}
+
+a {
+    text-decoration: underline;
 }

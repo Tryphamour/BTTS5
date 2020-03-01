@@ -2,8 +2,8 @@
     <table>
         <thead>
             <tr>
-                <th>Id</th>
-                <th><i class="fas fa-globe-americas"></i>Country</th>
+                <th>ID</th>
+                <th>Country</th>
                 <th><i class="far fa-address-card"></i>Player</th>
                 <th>Seeding</th>
                 <th>Taiko rank</th>
@@ -14,7 +14,7 @@
             <tr *ngFor="let player of players; let i = index">
                 <td class="table_index">{{i+1}}</td>
                 <td class="table_country"><img src="{{player.country}}" alt="country"></td>
-                <td class="table_name">{{player.name}}</td>
+                <td class="table_name"><a href="{{player.url}}" target="_blank">{{player.name}}</a></td>
                 <td class="table_seeding">{{player.seeding}}</td>
                 <td class="table_taikoRank">{{player.taikoRank}}</td>
                 <td class="table_ppCount">{{player.ppCount}}</td>

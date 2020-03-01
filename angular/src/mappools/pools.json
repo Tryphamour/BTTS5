@@ -9,5 +9,85 @@
       { "mod": "dt1", "id": 1684690 }
     ],
     "mappack": "https://mega.nz/#!CnhFiCha!wYPLpKlqlluFNO8gnTmqTSKW_qeU0J-I0bWJKsdLx_Y"
+  },
+  {
+    "round": "Group Stage",
+    "maps": [
+      { "mod": "nm1", "id": 1945196 },
+      { "mod": "nm2", "id": 2199575 },
+      { "mod": "nm3", "id": 977179 },
+      { "mod": "nm4", "id": 2235429 },
+      { "mod": "hd1", "id": 880126 },
+      { "mod": "hd2", "id": 2241126 },
+      { "mod": "hr1", "id": 941208 },
+      { "mod": "hr2", "id": 469952 },
+      { "mod": "dt1", "id": 2176316 },
+      { "mod": "dt2", "id": 2298671 },
+      { "mod": "fm1", "id": 2296493 },
+      { "mod": "fm2", "id": 442939 },
+      { "mod": "tb", "id": 2257767 }
+    ],
+    "mappack": "https://mega.nz/#!j2hQlACQ!ZZNo2R4nSJXr15I_qv18oB5JQdlswj2X7WgHZ7QO38w"
+  },
+  {
+    "round": "Round of 32",
+    "maps": [
+      { "mod": "nm1", "id": 1522858 },
+      { "mod": "nm2", "id": 1959835 },
+      { "mod": "nm3", "id": 1836784 },
+      { "mod": "nm4", "id": 1451088 },
+      { "mod": "hd1", "id": 1907178 },
+      { "mod": "hd2", "id": 2070355 },
+      { "mod": "hr1", "id": 1775051 },
+      { "mod": "hr2", "id": 2017033 },
+      { "mod": "dt1", "id": 2050153 },
+      { "mod": "dt2", "id": 784829 },
+      { "mod": "fm1", "id": 2122781 },
+      { "mod": "fm2", "id": 1687869 },
+      { "mod": "tb", "id": 999911 }
+    ],
+    "mappack": "https://mega.nz/#!DiRkkAJT!NPi86PCiZjwK8VU9B_KUvAdPRPqBmR5d-KKofjHULhQ"
+  },
+  {
+    "round": "Round of 16",
+    "maps": [
+      { "mod": "nm1", "id": 1186360 },
+      { "mod": "nm2", "id": 683297 },
+      { "mod": "nm3", "id": 1754164 },
+      { "mod": "nm4", "id": 2153992 },
+      { "mod": "nm5", "id": 1864270 },
+      { "mod": "hd1", "id": 1836953 },
+      { "mod": "hd2", "id": 1439394 },
+      { "mod": "hr1", "id": 1375083 },
+      { "mod": "hr2", "id": 2156725 },
+      { "mod": "dt1", "id": 1964994 },
+      { "mod": "dt2", "id": 1554389 },
+      { "mod": "fm1", "id": 1438411 },
+      { "mod": "fm2", "id": 1569195 },
+      { "mod": "fm3", "id": 2204398 },
+      { "mod": "tb", "id": 1311218 }
+    ],
+    "mappack": "https://mega.nz/#!D34yhKZD!TWF4xkDiIYn2R5O-d00O07jdr15JAbVQ0gYrSxzjy98"
+  },
+  {
+    "round": "Quarterfinals",
+    "maps": [
+      { "mod": "nm1", "id": 1231261 },
+      { "mod": "nm2", "id": 2065772 },
+      { "mod": "nm3", "id": 2045007 },
+      { "mod": "nm4", "id": 1624756 },
+      { "mod": "nm5", "id": 1813700 },
+      { "mod": "hd1", "id": 2194488 },
+      { "mod": "hd2", "id": 1681760 },
+      { "mod": "hr1", "id": 1535012 },
+      { "mod": "hr2", "id": 1576790 },
+      { "mod": "dt1", "id": 2282069 },
+      { "mod": "dt2", "id": 490531 },
+      { "mod": "fm1", "id": 859274 },
+      { "mod": "fm2", "id": 1987271 },
+      { "mod": "fm3", "id": 1974515 },
+      { "mod": "tb", "id": 2057784 }
+    ],
+    "mappack": "https://mega.nz/#!H6ARHSib!axE0rqbekmpRNHrhjGBUSZ0A8Xv4yLa1QIJNCVnBBPk"
   }
 ]

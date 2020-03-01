@@ -1,5 +1,9 @@
 #pool-list {
-  margin: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  z-index: 1;
+  max-height: calc(100% - 50px);
+  overflow-y: auto;
 }
 
 .bg {
@@ -17,16 +21,16 @@
   text-align: center;
   background-color: white;
   border: 2px solid black;
-  padding: 5px
+  padding: 5px;
 }
 
-#mappack-wrapper a{
+#mappack-wrapper a {
   text-decoration: underline;
   color: black;
   font-size: 1.3em;
 }
 
-#mappack-wrapper a:hover{
+#mappack-wrapper a:hover {
   font-weight: bold;
 }
 
@@ -90,22 +94,22 @@ img {
   display: flex;
 }
 
-.row{
+.row {
   margin-bottom: 0 !important;
 }
 
-.bigList{
+.bigList {
   background-color: lightgrey;
   text-align: left;
 }
 
-.list_items{
+.list_items {
   padding: 10px 10px;
   display: inline-block;
 }
 
-#contain{
+#contain {
   display: flex;
   height: 83vh;
-  align-items: center;;
+  align-items: center;
 }
